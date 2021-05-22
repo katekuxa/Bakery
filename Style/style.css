@@ -1,0 +1,631 @@
+/*Обнуление CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.main {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/*Product Name*/
+.prodName {
+    background: #445162;
+    padding-bottom: 50px;
+}
+
+.prodNameLeft {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 280px;
+    float: left;
+}
+
+.prodNameH1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+#pond {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-bottom: 60px;
+    line-height: 36px;
+}
+
+.prodNameRight img {
+    width: 485px;
+    height: 300px;
+    padding-top: 50px;
+}
+
+button {
+    padding: 10px 45px;
+    background-color: wheat;
+    margin-top: 18px;
+    border-radius: 15px;
+    text-decoration: none;
+    border: 0;
+}
+
+button:hover {
+    background-color: rgb(187, 45, 69);
+    transition: 1.2s;
+    padding: 7px 40px;
+}
+
+a.prodNameButton {
+    color: #161e29;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 850;
+
+}
+
+
+/*About Product*/
+.aboutProduct {
+    background: #ecebeb;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.aboutProductLeft {
+    padding-left: 50px;
+
+    float: left;
+
+}
+
+.aboutProductH1 {
+    color: #445162;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+
+    padding-bottom: 30px;
+}
+
+.aboutYourProductP {
+    width: 649px;
+    padding-right: 100px;
+}
+
+.aboutYourProductP_info {
+    color: #445162;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.aboutYourProductP_info:first-child {
+    padding-bottom: 20px;
+}
+
+.aboutProductRight video {
+    padding-top: 50px;
+}
+
+a.aboutProductButton {
+    color: #161e29;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 850;
+}
+
+/*dignityProduct*/
+
+.dignityProduct {
+    background: #bebec5;
+}
+
+.dignityProductName {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #445161;
+    padding-bottom: 29px;
+    padding-top: 50px;
+}
+
+.dignityProductSpis {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dignityProductInform {
+    width: 526px;
+    height: 63px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 35px;
+    color: #333333;
+    text-align: justify;
+}
+
+.dignityProductImg,
+.dignityProductInform {
+    display: block;
+}
+
+.dignityProduct1,
+.dignityProduct2,
+.dignityProduct3,
+.dignityProduct4,
+.dignityProduct5,
+.dignityProduct6 {
+    display: flex;
+}
+
+.dignityProductImg {
+    width: 32px;
+    height: 32px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+/*Scrin*/
+.scrinName {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-bottom: 36px;
+    color: #445161;
+}
+
+.scrinDescrip {
+    display: flex;
+}
+
+.scrinDescripLeft1,
+.scrinDescripLeft2,
+.scrinDescripRight1,
+.scrinDescripRight2 {
+    display: flex;
+}
+
+.scrinDescripImg {
+    width: 200px;
+    height: 150px;
+    padding-bottom: 35px;
+}
+
+.scrinDescripHeadText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #445161;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.scrinDescripText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.scrin {
+    background: #ddd8d8;
+}
+
+.scrinDescripLeft {
+    margin-left: 35px;
+}
+
+.scrinDescripRight {
+    margin-right: 35px;
+    margin-left: 55px;
+}
+
+.round {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 100px;
+    border-radius: 50%;
+    background-image: url(img/pexels-brigitte-tohm-239578.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Reviews*/
+.Reviews {
+    background: azure;
+}
+
+.reviewsName {
+    width: 111px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #445161;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.reviewMain {
+    display: flex;
+    padding-bottom: 35px;
+}
+
+.reviewsLeft1,
+.reviewsLeft2,
+.reviewsRight1,
+.reviewsRight2 {
+    display: flex;
+}
+
+.round1,
+.round2,
+.round3,
+.round4 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-image: url(img/pexels-c-technical-5770433.jpg);
+    background-size: cover;
+    padding-right: 50px;
+    margin-top: 15px;
+}
+
+.round2 {
+    background-image: url(img/pexels-shotpot-4045762.jpg);
+}
+
+.round3 {
+    background-image: url(img/pexels-cottonbro-5119522.jpg);
+}
+
+.round4 {
+    background-image: url(img/pexels-nick-bondarev-4330308.jpg);
+    ;
+}
+
+.reviewsText {
+    padding-top: 15px;
+    padding-left: 50px;
+    background-color: rgb(216, 218, 218);
+    padding-top: 15px;
+    margin: 15px;
+    margin-left: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.reviewsTextText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #333333;
+}
+
+.reviewsTextName {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: 14px;
+    font-weight: 400;
+    color: #989898;
+    padding-bottom: 15px;
+}
+
+.reviewsLeft,
+.reviewsRight {
+    padding-left: 25px;
+}
+
+/*buyNow*/
+
+.buyNow {
+    background: rgba(238, 241, 240, 0.925);
+    padding-bottom: 50px;
+}
+
+.buyNowBlocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.buyNowName {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #445161;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+/*block1*/
+
+.buyNowBlock1 {
+    width: 300px;
+    height: 306px;
+    background: #445162;
+    border-radius: 3%;
+    margin-left: 145px;
+}
+
+.buyNowBlock1Name {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.buyNowBlock1Cost {
+    background: #fff;
+    width: 296px;
+    height: 71px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.buyNowBlock1CostText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 18px;
+    margin-bottom: 200px;
+    color: #445162;
+}
+
+.buyNowBlock1Description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+button.buyNowButton {
+    background: #fff;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+button.buyNowButton:hover {
+    background: rgb(157, 110, 163);
+}
+
+.buyNowBlock1ButtonText {
+    text-decoration: none;
+    color: #445161;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/*block2*/
+
+.buyNowBlock2 {
+    width: 300px;
+    height: 404px;
+    background: #445162;
+    border-radius: 3%;
+}
+
+.buyNowBlock2Name {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.buyNowBlock2Cost {
+    background: #fff;
+    width: 296px;
+    height: 71px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.buyNowBlock2CostText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 18px;
+    margin-bottom: 200px;
+    color: #445162;
+}
+
+.buyNowBlock2Description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 1.66;
+}
+
+/*block3*/
+
+.buyNowBlock3 {
+    width: 300px;
+    height: 499px;
+    background: #445162;
+    border-radius: 3%;
+    margin-right: 145px;
+}
+
+.buyNowBlock3Name {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.buyNowBlock3Cost {
+    background: #fff;
+    width: 296px;
+    height: 71px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.buyNowBlock3CostText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 18px;
+    margin-bottom: 200px;
+    color: #445162;
+}
+
+.buyNowBlock3Description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 1.65;
+}
+
+/*contacts*/
+
+.contacts {
+    background: #445162;
+    padding-bottom: 50px;
+}
+
+.contactsName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.planeAndContacts {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-left: 250px;
+    margin-right: 245px;
+}
+
+.contactsContactsSkype,
+.contactsContactsIcq,
+.contactsContactsEmail,
+.contactsContactsWorkNumber {
+    display: block;
+    display: flex;
+    padding-bottom: 5px;
+    padding-left: 45px;
+}
+
+.skypeImg,
+.numderImg,
+.emailImg,
+.workNumberImg {
+    width: 22px;
+    height: 22px;
+    padding-right: 5px;
+}
+
+.skypeLogin,
+.icqNumber,
+.emailWay,
+.workNumber {
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contactsContactsSocial img {
+    padding-bottom: 25px;
+    margin-left: 45px;
+}
+
+
+.yourName,
+.yourEmail,
+.yourComment {
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #445162;
+    padding-left: 10px;
+}
+
+.yourName,
+.yourEmail {
+    height: 40px;
+}
+
+.yourComment {
+    height: 170px;
+    padding-top: 14px;
+}
+
+.buttonSend {
+    width: 140px;
+    height: 40px;
+    margin-left: 195px;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #445162;
+    border-radius: 5px;
+    border: none;
+}
